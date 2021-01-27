@@ -1,0 +1,57 @@
+.body{
+    position: relative;
+}
+p{
+    line-height: 30px;
+}
+.header_logo{
+    position: absolute;
+    top: 30px;
+    left: 58px;
+    z-index: 100;
+}
+.header_menu{
+    position: absolute;
+    top: 30px;
+    right: 58px;
+    z-index: 100;
+}
+.header_image1{
+    position: absolute;
+    top: 160px;
+    right: 150px;
+    z-index: 100;
+}
+.header_image2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+.header_image3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+main{
+    margin-top: 890px;
+}
+section{
+    max-width: 1100px;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: auto;
+}
+.about_wrapper{
+    margin-top: 200px;
+    background-image: url(../img/about-img@2x-min.png);
+    padding: 110px 460px 110px 50px ;
+
+}
+.about_container{
+    background-color: white;
+    opacity: 0.9;
+    height: 390px;
+    padding:50px  34px 50px 30px;
+}
