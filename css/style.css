@@ -1,8 +1,22 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+*{
+    text-decoration:none;
+    color: inherit;
+    list-style: none;
+    font-weight: normal;
+    font-size:16px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
 .body{
     position: relative;
 }
+
+h2{
+    font-weight: normal; 
+}
 p{
-    line-height: 30px;
+    line-height: 32px;
 }
 .header_logo{
     position: absolute;
@@ -43,8 +57,11 @@ section{
     /* justify-content: center; */
     margin: auto;
 }
+.about{
+    margin-top: 140px;
+    padding-bottom: 60px;
+}
 .about_wrapper{
-    margin-top: 200px;
     background-image: url(../img/about-img@2x-min.png);
     padding: 110px 460px 110px 50px ;
 
@@ -54,4 +71,45 @@ section{
     opacity: 0.9;
     height: 390px;
     padding:50px  34px 50px 30px;
+}
+main .btn{
+    background-color: black;
+    padding: 11px 30px;
+    border-radius: 0;
+    width: 160px;
+}
+.btn a{
+    color: white;
+}    
+section h2{
+    margin-bottom: 31px;
+}
+article p{
+    margin: 30px 0;
+    font-weight: medium;
+}
+.bg_image{
+    width: 100%;
+    position: absolute;
+    top: 1440px;
+    z-index: -50;
+}
+li a{
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+.topics{
+    margin: 66px auto;
+}
+.topics span{
+    font-size: 10px;
+    font-weight: bold;
+    color:grey;
+}
+.contact_wrapper{
+    padding: 60px 0 120px 0;
+}
+.contact_container{
+    padding:78px 80px 70px 0;
 }
